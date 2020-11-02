@@ -1,0 +1,201 @@
+/*booking page */
+.coaches {
+    margin: 1em auto;
+    margin-top: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    min-width: 80%;
+}
+
+.rows {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.column {
+    width: 21%;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    text-align: center;
+    min-width: 10em;
+    margin: 1em;
+    padding-bottom: 0.2em;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.column img{
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(50%);
+}
+
+.column img:hover {
+    filter: grayscale(0%);
+}
+
+.big-cont{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.date-box{
+    background-color: rebeccapurple;
+}
+.date-choise{
+    margin-bottom: 0.5em;
+    font-size: x-large;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.date{   
+    margin: auto;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.previous {
+    background-color: blue;
+    color: white;
+}
+  
+.next {
+    background-color: blue;
+    color: white;
+}
+  
+.round {
+    border-radius: 50%; 
+}
+
+.date-choise a:hover{
+    background-color: gold;
+    color: black;
+}
+
+
+.book-item{
+    font-size: xx-large;
+}
+
+.book-cont{
+    width: 80%;
+    text-align: center;
+    padding: 1em;
+    background-color: white;
+    border: 1px solid black;
+    margin-top: 2em;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+    min-width: 1000px;
+}
+
+.bigboi{
+    text-align: left;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+.aName{
+    font-size: medium;
+    padding-left: .2em;
+}
+.timeinterval{
+    font-weight: 600;
+    font-size: large;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.arenaname p{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.head{
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.Table{
+    table-layout: fixed;
+    background-clip: padding-box;
+}
+
+td p{
+    visibility: hidden;
+    font-size: 0;
+}
+
+td[data-booked ="0"]{
+    cursor: pointer;
+}
+td[data-booked ="0"]:hover{
+    background-color: blue;
+}
+td[data-booked ="1"]{
+    background-color:red; 
+}
+td[data-booked ="2"]{
+    background-color: green;
+}
+td[data-booked ="3"]{
+    background-color: lightgray;
+}
+td[data-booked ="3"]:hover{
+    background-color: gray;
+}
+td[data-booked ="4"]{
+    background-color: lightgray;
+}
+td[data-booked ="4"]:hover{
+    background-color: gray;
+}
+.popup{
+    height: 1.5em;
+    position: relative;
+}
+
+.popup .popuptext{
+    visibility: hidden;
+    white-space: nowrap;
+    line-height: 2em;
+    padding-top: .2em;
+    padding-bottom: .2em;
+    padding-left: .8em;
+    padding-right: .8em;
+    background-color: white;
+    position: absolute;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.2), 0 2px 12px 0 rgba(0, 0, 0, 0.19); 
+    text-align: center;
+    z-index: 5;
+    font-size: small;
+    top: -55%;
+    word-wrap: normal !important;
+    word-break: normal !important;
+}
+
+.popup .popuptext::after{
+    content: "";
+    position: absolute;
+    padding: .2em;
+}
+
+.popup:hover .popuptext{
+    visibility: visible;
+}
+
+.mini-container {
+    max-width: 80%;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}

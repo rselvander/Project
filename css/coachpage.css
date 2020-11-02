@@ -1,0 +1,160 @@
+/*coachpage */
+.coaches {
+    margin: 100px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+.rows {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;   
+}
+
+.column {
+    width: 20%;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: center;
+    min-width: 10em;
+    margin: 1em;
+}
+
+.column img{
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(50%);
+}
+
+.column img:hover {
+    filter: grayscale(0%);
+}
+
+.big-cont{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 3em;
+    width: 100%;
+}
+
+.prof-box{
+    width: 80%;
+    height: 80%;
+    text-align: left;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box1{
+    width: 40%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box2{
+    width: 99%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 8em;
+    padding-top: 2em;
+}
+
+.child1{
+    height: 90%;
+    width: 95%;
+    align-items: center;
+}
+
+.child1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.child2{
+    text-align: left;
+    margin-top: 1em;
+}
+
+.box2 .child2 {
+    margin-top: .5em;
+}
+
+.box2 .child3 {
+    margin-top: .5em;
+}
+
+.shadow{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.2), 0 2px 12px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bio{
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.head{
+    padding-left: 2em;
+    padding-top: 1em;
+    padding-bottom: .5em;
+}
+
+.content{
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+
+.choice-box{
+    background-color: white;
+    width: 100%;
+    height: 15em;
+    margin-top: .5em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.choice{
+    justify-content: center;
+    width: 33%;
+    text-align: center;
+    padding-top: 2em;
+}
+
+.choice a{
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.mini-container {
+    max-width: 80%;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}

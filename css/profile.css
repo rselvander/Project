@@ -1,0 +1,278 @@
+/*booking page */
+.coaches {
+    margin: 100px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+.rows {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;   
+}
+
+.column {
+    width: 20%;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: center;
+    min-width: 10em;
+    margin: 1em;
+}
+
+.column img{
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(50%);
+}
+
+.column img:hover {
+    filter: grayscale(0%);
+}
+
+.big-cont{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 3em;
+    width: 100%;
+}
+
+.prof-box{
+    width: 80%;
+    height: 80%;
+    text-align: left;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box1{
+    width: 40%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box2{
+    width: 99%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 8em;
+    padding-top: 2em;
+}
+
+.child1{
+    height: 90%;
+    width: 95%;
+    align-items: center;
+}
+
+.child1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.child2{
+    text-align: left;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.child2 p{
+    text-align: left;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.box2 .child2 {
+    margin-top: .5em;
+}
+
+.box2 .child3 {
+    margin-top: .5em;
+}
+
+.shadow{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.2), 0 2px 12px 0 rgba(0, 0, 0, 0.19);  
+}
+
+.bio{
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.head{
+    padding-left: 2em;
+    padding-top: 1em;
+    padding-bottom: .5em;
+}
+
+.content{
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+
+.contentform{
+    padding-left: 0.2em;
+    padding-right: 5em;
+    width: 100%;
+    height: 10em;
+}
+
+.choice-box{
+    background-color: white;
+    width: 100%;
+    margin-top: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.choice{
+    justify-content: center;
+    width: 50%;
+    text-align: center;
+}
+.choice a{
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.first{
+    border-right: .2em solid rgb(240, 240, 240);
+}
+
+.mini-container {
+    max-width: 80%;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.pinfo{
+    background-color: white;
+    margin-top: 2em;
+    padding-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 100%;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.2), 0 2px 12px 0 rgba(0, 0, 0, 0.19); 
+}
+
+.phead{
+    margin-top: 2em;
+    margin-left: 1em;
+    width: 90%;
+    text-align: left;
+}
+
+.phead p{
+    margin-bottom: .3em;
+    font-size: x-large;
+}
+
+.divider{
+    height: .1em;
+    width: 100%;
+    border-bottom: .2em solid rgb(240, 240, 240);
+}
+
+.phead p{
+    margin-bottom: .3em;
+    font-size: x-large;
+}
+
+.pbookings{
+    margin-left: 1em;
+    margin-top: 1em;
+    width: 90%;
+    text-align: left;
+    margin-top: 1em;
+}
+
+.pbookings p{
+    margin-bottom: .3em;
+}
+
+.pcol{
+    display: flex;
+    flex-direction: row;
+}
+
+.pwhen{
+    display: flex;
+    flex-direction: row;
+    font-weight: 350;
+    font-size: large;
+}
+
+.pwhere{
+    display: flex;
+    flex-direction: row;
+    font-weight: 350;
+    font-size: large;
+}
+
+.manage-box{
+    width: 100%;
+    text-align: left;
+    padding: 1em;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.2), 0 2px 12px 0 rgba(0, 0, 0, 0.19); 
+}
+
+.form-popup .row1{
+    display: flex;
+    flex-direction: row;
+}
+.form-popup .col1{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-popup .col1 b{
+    margin-bottom: .9em;
+}
+
+.row2 p{
+    margin-top: 1em;
+    margin-bottom: .5em;
+    font-size: large;
+    font-weight: bold;
+}
+
+.form-popup .child2{
+    margin-top: 0em;
+    margin-left: .5em;
+    margin-right: 2em;
+}
