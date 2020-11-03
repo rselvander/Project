@@ -30,7 +30,6 @@
     <link rel="stylesheet" href="css/media.css">
 	<link rel="stylesheet" href="css/coachpage.css">
 	<link rel="stylesheet" href="css/bookingpage.css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="javabois/coachW.js"></script>
 	<script type="text/javascript">	var DAY = 0; </script>
 </head>
