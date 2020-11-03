@@ -19,7 +19,6 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/media.css">
 	<link rel="stylesheet" href="css/profile.css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<?php if(isset($_SESSION['iscoach'])) {
 		echo "<script src='javabois/coach.js'></script>";
 		echo "<script type='text/javascript'> var DAY = 0; </script>";
